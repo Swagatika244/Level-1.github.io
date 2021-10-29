@@ -1,0 +1,77 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.resetText{
+  font-size: 110px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  
+  text-shadow: -4px 3px 0 #fffefe,
+                1px 1px 0 #fffefe,
+                1px -1px 0 #fffefe,
+                -1px -1px 0 #fffefe;
+}
+
+.signature{
+  font-size: 30px;
+  color: #ffffff;
+  font-family: Brush Script MT;
+  text-align: center;
+}
+
+.signature1{
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'WindSong', cursive;
+  text-align: center;
+}
+
+.button {
+  font-size: 35px;
+  border: 3px solid #ccc;
+  border-radius: 7px;
+  padding: 1px 20px;
+  background-color: black;
+  color: #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+.button:hover {
+  background-color: rgb(12, 18, 24);
+}
+
+.share{
+  font-size: 30px;
+  color: #ffffff;
+  background-color: black;
+  padding: 2px 20px;
+  /*outline-style: dashed;*/
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  font-family: Papyrus;
+  text-align: center;
+}
+.inputBox{
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color:black;
+  font-family: sans-serif;
+}
+
+.copyShare{
+  font-size: 20px;
+  color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #3b0202;
+  font-family: sans-serif;
+  padding: 5px 15px;
+
+}
